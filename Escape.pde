@@ -1,10 +1,9 @@
- Clues clue1 = new Clues(1,"hi");
+ Clue clue1 = new Clue(1,"hi");
  Rooms room1 = new Rooms(1,"first","circle(224, 184, 220);");
 
 
 void setup(){
-   size(1500, 1000);
-
+   size(1300, 700);
 }  
 
 

@@ -1,8 +1,9 @@
-public class Clues {
+public class Clue {
   int cluenum;
   String content;
   
-  public Clues(int num, String words){
+  
+  public Clue(int num, String words){
     cluenum=num;
     content=words;
   }
