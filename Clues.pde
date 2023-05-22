@@ -15,7 +15,4 @@ public class Clue {
     return content;
   }
 
-  public String toString(){
-     return ( cluenum + ". "+ content);
-  }
 }
