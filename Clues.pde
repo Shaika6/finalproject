@@ -11,7 +11,7 @@ public class Clue {
   public int getnum(){
     return cluenum;
   }  
-  public String getcontent(){
+  public String gethint(){
     return content;
   }
 
