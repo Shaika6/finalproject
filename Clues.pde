@@ -1,18 +1,18 @@
 public class Clue {
   int cluenum;
-  String content;
+  String hint;
   
   
   public Clue(int num, String words){
     cluenum=num;
-    content=words;
+    hint=words;
   }
   
   public int getnum(){
     return cluenum;
   }  
   public String gethint(){
-    return content;
+    return hint;
   }
 
 }
