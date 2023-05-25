@@ -1,8 +1,8 @@
-public class Key{
-String color;
+class Key{
+String col;
 boolean used;
   public Key(String c){
-    color=c;
+    col=c;
     used=false;
   }
   
