@@ -1,16 +1,20 @@
 class Key{
-String col;
+color col;
 boolean used;
-  public Key(String c){
+boolean got;
+  public Key(color c){
     col=c;
     used=false;
+    got = false;
   }
   
 public void use(){
   used=!used;
   }
-  
+public color getColor(){
+  return col;
+}
 
-
-
+public void keyGot(){
+  got = true;
 }
