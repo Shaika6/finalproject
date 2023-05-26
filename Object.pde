@@ -1,9 +1,9 @@
-public class Object {
+public class Objects {
   boolean pressed;
   float dist;
   int xcor, ycor, diam;
   
-  public Object(int x, int y,int d){
+  public Objects(int x, int y,int d){
     pressed = false;
     xcor=x;
     ycor=y;
