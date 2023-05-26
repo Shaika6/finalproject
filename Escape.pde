@@ -1,5 +1,6 @@
 Objects right1 = new Objects(100,100,50);
  int curRoom = 1;
+ int keynum = 1;
 
  boolean wrong1p =false;
  boolean obj2p =false;
@@ -30,7 +31,7 @@ void room1(){
 }
 
 void room2(){
-  PImage img = loadImage("light.png");
+  PImage img = loadImage("pink.jpg");
   image(img,0,0,1000,500);
 }
 
@@ -72,4 +73,9 @@ void note(int n){
     //text("hint 3",100,510,500,90 );
   //}
   
+}
+
+public void maze(){
+  fill(#00f4ff);
+  ellipse(700,550,15,9);
 }
