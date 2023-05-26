@@ -1,4 +1,4 @@
-Object right1 = new Object(100,100,50);
+Objects right1 = new Objects(100,100,50);
  int curRoom = 1;
 
  boolean wrong1p =false;
@@ -73,7 +73,3 @@ void note(int n){
   //}
   
 }
-
-//void key(){
-  //circle(700, 580,20);
-//}  
