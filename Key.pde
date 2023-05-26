@@ -1,4 +1,4 @@
-class Key{
+public class Key{
 color col;
 boolean used;
 boolean got;
@@ -17,4 +17,5 @@ public color getColor(){
 
 public void keyGot(){
   got = true;
+}
 }
