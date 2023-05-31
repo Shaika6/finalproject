@@ -2,6 +2,8 @@ public class Objects {
   boolean pressed;
   float dist;
   int xcor, ycor, diam;
+ 
+  int xd,yd;
   
   public Objects(int x, int y,int d){
     pressed = false;
@@ -9,6 +11,14 @@ public class Objects {
     ycor=y;
     diam=d;
   }
+  
+  public Objects(int x, int y,int w,int h){
+    pressed = false;
+    xcor=x;
+    ycor=y;
+    xd=x+w;
+    yd=y+h;
+  }  
   
   public void press(){
     pressed = !pressed;
