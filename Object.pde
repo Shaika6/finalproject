@@ -5,6 +5,10 @@ public class Objects {
  
   int xd,yd;
   
+  public Objects(){
+    pressed = false;
+  }
+  
   public Objects(int x, int y,int d){
     pressed = false;
     xcor=x;
@@ -33,8 +37,8 @@ public class Objects {
     return dist;
   }
   
-  public int getR(){
-    return diam/2;
+  public float getR(){
+    return (diam/2);
   }
   
 }
