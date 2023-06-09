@@ -97,11 +97,11 @@ void room2(){
 void room3(){
   PImage img = loadImage("dining.jpeg");
   image(img,0,0,1000,500); 
-  fill(#E349AB);
+  fill(#9E0000);
   circle(294,157,15); //right3
   circle(308,161,12);
   circle(280,161,12);
-  fill(#680839);
+  fill(#E349AB);
   circle(485,157,15);
   circle(499,161,12);
   circle(471,161,12);
