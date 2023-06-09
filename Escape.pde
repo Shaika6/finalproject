@@ -97,7 +97,7 @@ void room2(){
 void room3(){
   PImage img = loadImage("dining.jpeg");
   image(img,0,0,1000,500); 
-  fill(#990000);
+  fill(#E349AB);
   circle(294,157,15); //right3
   circle(308,161,12);
   circle(280,161,12);
@@ -105,6 +105,10 @@ void room3(){
   circle(485,157,15);
   circle(499,161,12);
   circle(471,161,12);
+  fill(#4640FF);
+  circle(676,157,15);
+  circle(690,161,12);
+  circle(662,161,12);
 }
 
 void room4(){
@@ -138,17 +142,17 @@ void room6(){
   circle(813,380,30);
   fill(0);
   textSize(25);
-  text(1,720,313);
-  text(2,765,313);
-  text(3,810,313);
+  text(1,718,315);
+  text(2,762,315);
+  text(3,808,315);
   
-  text(4,720,348);
-  text(5,765,348);
-  text(6,810,348);
+  text(4,718,350);
+  text(5,762,350);
+  text(6,808,350);
   
-  text(7,720,383);
-  text(8,765,383); //right6
-  text(9,810,383);
+  text(7,718,385);
+  text(8,762,385); //right6
+  text(9,808,385);
 }
 
 void end(){
